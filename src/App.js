@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div>
-      <h1>Sign up for Newletter</h1>
+      <h1>Sign up for Newsletter</h1>
       <form onSubmit={submitForm}>
         <input
           name="Email"
