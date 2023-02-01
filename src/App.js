@@ -11,7 +11,7 @@ function App() {
     event.preventDefault();
     const captchaValue = recaptcha.current.getValue();
     if (!captchaValue) {
-      alert("Please verify the Recaptcha!");
+      alert("Please verify the reCAPTCHA!");
     } else {
       const res = await fetch("http://localhost:8000/verify", {
         method: "POST",
@@ -25,7 +25,7 @@ function App() {
         // make form submission
         alert("Form submission successful!");
       } else {
-        alert("Recaptcha validation failed!");
+        alert("reCAPTCHA validation failed!");
       }
     }
   }

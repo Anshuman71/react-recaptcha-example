@@ -1,4 +1,4 @@
-# React Recaptcha example
+# React reCAPTCHA example
 
 Update the `.env` app with the following values:
 
